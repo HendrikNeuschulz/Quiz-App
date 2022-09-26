@@ -4,12 +4,27 @@
   padding: 0;
 }
 
-header {
+body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 10px;
+  background-color: rosybrown;
+}
+
+header {
   border-bottom: 2px solid black;
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  justify-content: center;
 }
 
 h1 {
+  display: flex;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
   display: flex;
 }
