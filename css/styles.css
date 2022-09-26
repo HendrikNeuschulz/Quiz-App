@@ -15,7 +15,7 @@ body {
 
 header {
   border: 2px solid black;
-  position: sticky;
+  position: fixed;
   display: flex;
   top: 0;
   left: 130px;
@@ -57,4 +57,16 @@ nav a img {
   width: 30px;
   right: 20px;
   top: -10px;
+}
+.answer {
+  position: relative;
+  width: 200px;
+  padding: 25px;
+  top: 100px;
+  background-color: rosybrown;
+  box-shadow: 2px 2px 2px lightslategray;
+}
+
+button:hover {
+  background-color: lightslategray;
 }
