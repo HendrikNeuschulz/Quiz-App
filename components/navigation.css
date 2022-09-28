@@ -9,3 +9,8 @@ nav {
   border-radius: 10px;
   background-color: lightslategray;
 }
+.nav__bookmark {
+  border-bottom: 7px solid red;
+  border-radius: 8px;
+  border-end-start-radius: 30px;
+}
