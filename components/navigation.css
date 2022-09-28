@@ -1,0 +1,11 @@
+nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  left: 130px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightslategray;
+}
