@@ -9,6 +9,6 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 10px;
   background-color: rosybrown;
-  width: 600px;
+  max-width: 600px;
   margin: 10px;
 }
