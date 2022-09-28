@@ -1,0 +1,9 @@
+header {
+  border: 2px solid black;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 130px;
+  text-align: center;
+  border-radius: 10px;
+}
