@@ -15,22 +15,26 @@ nav a img {
   width: 40px;
   margin: 10px;
 }
-.flex-container img {
-  position: absolute;
-  width: 30px;
-  right: 20px;
-  top: -10px;
+.questioncard__bookmark {
+  position: relative;
+  width: 40px;
+  right: -150px;
+  bottom: 190px;
 }
 
 .answer {
-  position: relative;
+  position: absolute;
   width: 200px;
   padding: 25px;
-  top: 100px;
+  top: 300px;
   background-color: rosybrown;
   box-shadow: 2px 2px 2px lightslategray;
 }
 
 button:hover {
   background-color: lightslategray;
+}
+
+.questioncard__question  {
+  height: 120px;
 }
